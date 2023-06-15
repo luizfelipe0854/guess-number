@@ -1,0 +1,12 @@
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+footer span{
+    color: var(--azul);
+    font-size: 1rem;
+    font-weight: 300;
+}

@@ -1,0 +1,92 @@
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: linear-gradient(to right, #ddd, #eee, #ddd);
+}
+
+form{
+    background: var(--azul-claro);
+
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+}
+
+form label{
+    color: var(--branco);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+form input{
+    margin: 5% 0;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+form input:focus{
+    box-shadow: inset 1px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+form button{
+    cursor: pointer;
+    margin-top: 3%;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color:  var(--azul);
+    color: var(--branco);
+    transition: 0.3s ease-in-out;
+}
+
+form button:hover{
+    background-color:  var(--branco);
+    color: var(--azul);
+}
+
+section{
+    margin-top: 5%;
+    width: 40%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.15s ease-in;
+}
+
+section h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin:  5% 0; 
+}
+
+section span{
+    font-size: 1.3rem;
+    font-weight: 300; 
+}
+
+#restart{
+    cursor: pointer;
+    background: var(--azul);
+    color:  var(--branco); 
+    padding: 1rem;
+    margin-top: 3%;
+    font-size: 1.3rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease-in-out; 
+    display: none;  
+}
+
+#restart:hover{
+     color: var(--azul);
+     background: var(--branco); 
+}

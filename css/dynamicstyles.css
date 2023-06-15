@@ -1,0 +1,17 @@
+.resultado{
+    background: var(--branco);
+    color: var(--azul);
+}
+
+.result-correct-answear{
+    color: var(--branco);
+    background: var(--verde);
+}
+
+.status-correct{
+    color: var(--branco);
+}
+
+.incorrect-answear{
+    color: var(--vermelho);
+}
